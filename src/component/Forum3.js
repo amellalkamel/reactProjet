@@ -4,7 +4,6 @@ class Forum3 extends React.Component {
   constructor(props) {
     super(props);
     console.log("props forum 3------->", props);
-    // this.props = {};
   }
   render() {
     return (

@@ -13,9 +13,6 @@ class Forum extends React.Component {
       password: "",
       hobbies: "sport",
       step: 1,
-      //   showForm: true,
-      //   showForm2: false,
-      //   showForm3: false,
     };
   }
   handleChange = (event) => {
