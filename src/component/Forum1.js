@@ -15,6 +15,7 @@ class Forum1 extends React.Component {
   }
 
   render() {
+    const { nom, handleChange } = this.props;
     return (
       <div>
         <form>
@@ -29,7 +30,7 @@ class Forum1 extends React.Component {
               type="text"
               name="nom"
               value={this.props.nom}
-              onChange={this.props.handleChange}
+              onChange={handleChange}
             />
             <br></br>
           </label>
