@@ -4,14 +4,6 @@ class Forum2 extends React.Component {
   constructor(props) {
     console.log("props de forum2", props);
     super(props);
-
-    // this.state = {
-    //   hobbies: this.props.hobbies,
-
-    //   showForm: this.props.showForm,
-    //   showForm2: this.props.showForm2,
-    //   showForm3: false,
-    // };
   }
 
   render() {
